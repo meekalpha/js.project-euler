@@ -12,8 +12,6 @@ function p1() {
 	var s3 = c*(c+1)/2 * 15; 		//sum of these
 
 	var sum = s1 + s2 - s3;  		//inclusion/exclusion
-	console.log(sum);
-
 
 	$solutionLabel.text(sum);
 	return false;
